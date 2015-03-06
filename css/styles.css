@@ -1,51 +1,70 @@
 html {
-  font: Arial, Helvetica, sans-serif 1.2em/1.5 #F000F0;  
+  font-family: Arial, serif;
+  font-size: 62,5%;
+  line-height: 120%;
 }
 
 .welcome {
-  width: 900px;
-  padding: 10px;
+  width: 500px;
   margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
   text-align: center;
+  border: 3px solid red;
 }
 
-h1 {
-  font-size: 2em;
-  font-weight: bold;
-  margin-left: 0px;
+.welcome p {
+  padding-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.welcome h1 {
   margin-bottom: 20px;
-  border-bottom: 2px solid black;
+  font-family: "Arial Black", sans-serif;
+  font-size: 1.8em;
 }
-h1.big {
-  margin-bottom: 50px;
+
+h1:first-letter {
+  color: red;
+  font-weight: bold;
 }
+
 h1 em{
   color: red;
-  font-style: normal;  
-}
-p {
-  font-size: 1.2em;
-  margin-top: 0px;
-}
-
-p:first-letter {
-	font-weight: bold;
-	font-size: 130%;
-	color: red;
-}
-
-a:link {
+  font-weight: bold;
+  font-style: normal;
   text-decoration: none;
 }
+
+.welcome h2 {
+  font-size: 1.4em;
+}
+
+em {
+  font-style: italic;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.welcome a {
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+
+a:link {
+  color: #75A3FF;
+}
+
+a:visited {
+  color: #75A3FF;
+}
+	
 a:hover {
+  color: #75A3FF;
+  text-decoration: underline;
+}
+
+a:active {
   color: red;
-  background-color: #FFF;
-}
-
-.go {
-  border: 2px solid #FFF;
-}
-
-hr {
-  width: 80%;
 }
