@@ -1,0 +1,51 @@
+html {
+  font: Arial, Helvetica, sans-serif 1.2em/1.5 #F000F0;  
+}
+
+.welcome {
+  width: 900px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+h1.big {
+  margin-bottom: 50px;
+}
+h1 em{
+  color: red;
+  font-style: normal;  
+}
+p {
+  font-size: 1.2em;
+  margin-top: 0px;
+}
+
+p:first-letter {
+	font-weight: bold;
+	font-size: 130%;
+	color: red;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: #FFF;
+}
+
+.go {
+  border: 2px solid #FFF;
+}
+
+hr {
+  width: 80%;
+}
