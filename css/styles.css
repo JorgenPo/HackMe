@@ -6,11 +6,9 @@ html {
 }
 
 header {
+  padding: 0px;
+  margin: 0px;
   height: 30px;
-  padding: auto;
-  padding-top: 5px;
-  margin: 50px auto;
-  margin-top:0px;
   text-align: center;
   background: white;
 }
@@ -18,14 +16,14 @@ header {
 .welcome {
   width: 350px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 7%;
   padding: 20px;
   text-align: center;
   background-color: white;
-  box-shadow: -2px 2px 3px #6179aa;
+  box-shadow: -2px 2px 3px rgba(0,0,0,0.4);
 }
 
-.welcome p {
+p {
   padding-bottom: 20px;
   font-size: 0.9em;
   text-align: left;
@@ -51,6 +49,7 @@ h1 {
   margin-bottom: 24px;
   font-family: "Arial Black", sans-serif;
   font-size: 1.4em;
+  line-height: 130%;
 }
 
 h1:first-letter {
@@ -63,20 +62,19 @@ h1 em{
   text-decoration: none;
 }
 
-.logo {
-  margin: 0px;
+header .logo {
   font-family: Arial, serif;
   font-size: 1.1em; 
   font-weight: bold;
   text-shadow: none;
-  border: none;
+  vertical-align: middle;
 }
 
 header h1:first-letter {
   color: black;
 }
 
-.welcome a {
+a {
   font-size: 1.2em;
   text-decoration: none;
   color: #5583FF;

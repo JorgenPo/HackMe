@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+}
+
+.logo a {
+  color: black;
+}
+
+.logo a:hover {
+  text-decoration: none;
+}
+
+.message {
+  margin: 10px auto;
+  display: block;
+  font-size: 0.9em;
+  font-weight: normal;
+  font-style: normal;
+  color: red;
+}
+
+form {
+  width: 400px;
+  padding: 10px;
+  margin: 0px auto;
+  margin-top: 7%;
+  background-color: white;
+  box-shadow: -2px 2px 3px rgba(0,0,0,0.4);
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  margin-top: 0px;
+}
+
+input[type="submit"] {
+  padding: 8px;
+  margin-top: 20px;
+  color: white;
+  background-color: #75A3FF;
+  font-weight: bold;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  border: 1px dashed white;
+}
+
+.winner p {
+  text-align: center;
+}
+
+.winner input[type="text"] {
+  width: 70%;
+  height: 2em;
+  font-size: 1.6em;
+  text-align: center;
+}
+
+.winner input[type="submit"] {
+  padding: 12px;
+}
